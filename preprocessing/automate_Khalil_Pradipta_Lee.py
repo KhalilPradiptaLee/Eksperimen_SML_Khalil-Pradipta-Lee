@@ -114,4 +114,5 @@ if __name__ == "__main__":
     if not df_clean.empty:
         output_path = os.path.join(output_dir, output_name)
         df_clean.to_csv(output_path, index=False)
-        print(f"Data siap dilatih disimpan di: {output_path}")
+        print(f"Data siap dilatih disimpan di: {output_path}") 
+
